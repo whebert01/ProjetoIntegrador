@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.AddItemFragment">
+
+    <ImageView
+        android:id="@+id/AddItemImg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:background="@color/lightBlack"
+        android:src="@drawable/add_item_icon" />
+
+    <EditText
+        android:id="@+id/AddItemNamEditeTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter Item Name Here..."
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/AddItemPriceEditTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter Item Price Here..."
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/AddHotelLocationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter Location Here.."
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/SubmitItemBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:text="Add Item" />
+
+
+</LinearLayout>
